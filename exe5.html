@@ -32,9 +32,68 @@
         <!--Pedir assunto-->
 
         <textarea cols="100" rows="10" placeholder="Mensagem"></textarea><br>
-        
+        <input type="button" value="enviar"><br>
+        <!--Tamanho do campo de escrita grande com botão de enviar-->
     </form>
     
+
+    <br><h5>Formulario com Opções</h5>
+
+    <form action="" method="post">
+        <input type="radio" name="tipo">carro<br>
+        <input type="radio" name="tipo">moto<br>
+        <input type="radio" name="tipo">bicicleta<br>
+        <!--Botões de escolha-->
+
+        <input type="checkbox">gasolina<br>
+        <input type="checkbox">etanol<br>
+        <input type="checkbox">diesel<br>
+        <input type="checkbox">eletrico<br>
+        <!--Caixinhas de marcação-->
+
+        <select>
+            <option>Açougue</option>
+            <option>padaria</option>
+            <option>Farmacia</option>
+            <option>Posto de Gasolina</option>
+        </select>
+        <!--Caixinha com opções dentro-->
+    </form>
+
+
+    <br><h5>Entradas diversas</h5>
+    <form action="" method="">
+        numeros<input type="number" max="20" min="1"><br>
+        <!--caixinha com numeros dentro-->
+
+        data<input type="date" min="2024-08-10" max="2024-08-30"><br>
+        <!--caixinha pra marcar o Calendario-->
+
+        hora<input type="time"><br>
+        <!--caixinha pra marcar a Hora-->
+
+        data e hora<input type="datetime-local"><br>
+        <!--caixinha pra marcar hora e data-->
+
+        cor<input type="color"><br>
+        <!--caixinha pra marca corr-->
+
+        arquivo<input type="file"><br>
+        <!--caixinha pedindo para por um arquivo-->
+
+        imagem<input type="image"><br>
+        <!--texto pedindo imagem-->
+
+        intervalo<input type="range" min="1" max="20" step="2" value="2"><br>
+        <!--baixar e aumentar volume-->
+
+        telefone<input type="tel"><br>
+        <!--barra pra digitar (versão para telefone)-->
+
+        <input type="reset" value="limpar"><br>
+        <input type="submit" value="enviar"><br>
+        <!--botoes com o comando de resetar e enviar-->
+    </form>
 
 </body>
 </html>
