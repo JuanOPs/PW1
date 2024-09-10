@@ -1,0 +1,32 @@
+.paragrafo{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.dis{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 33%;
+}
+
+.dis img{
+    width: 80%;
+    height: 250px;
+    margin: 10px auto;
+    border-radius: 20px;
+    border: 5px solid darkblue;
+    border-spacing: 5px;
+}
+
+.dis h3, .dis h5{
+    color: darkblue
+}
+
+.disc p{
+    text-align: end;
+}
+
+.secao-dis{
+    display:flex;
+}
