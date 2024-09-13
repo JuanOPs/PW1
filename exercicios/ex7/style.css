@@ -23,10 +23,10 @@
     color: darkblue
 }
 
-.disc p{
+.dis p{
     text-align: end;
 }
 
-.secao-dis{
-    display:flex;
+.flex-container{
+    display: flex;
 }
