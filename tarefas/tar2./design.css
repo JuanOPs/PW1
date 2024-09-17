@@ -1,0 +1,55 @@
+body{
+    background-color:  #34495e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table{
+    background-color: #aeb6bf;
+    color: black;
+    border: 2px solid  #5d6d7e;
+    width: 90%;
+    margin: auto;
+    font-size: 24px;
+    text-align: center;
+}
+
+img{
+    width: 140px;
+    height: 170px;
+}
+
+#linha{
+    background-color:  #2e4053;
+    color: black;
+    font-size: 30px;
+}
+
+#linha th{
+    border: 1px solid  #1c2833;
+}
+
+td{
+    border: 1px solid  #1c2833;
+}
+
+h2{
+    font-size: 48px;
+    color: black;
+}
+
+h5{
+    font-size: 24px;
+    color: black;
+}
+
+input[type=text]{
+    font-size: 18px;
+}
+
+.botao{
+    font-size: 14px;
+}
+
+form{
+    font-size: 18px;
+}

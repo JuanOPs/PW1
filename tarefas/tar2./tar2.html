@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="design.css">
 </head>
+
+
 <body>
     <center>
         <h2>Locadora</h2>
@@ -14,16 +17,16 @@
             <input type="text" placeholder="Título" required><br>
             <input type="text" placeholder="Diretor" required><br>
             
-            Gênero:<select>
+            Gênero: <select class="botao">
                 <option>Animação</option>
                 <option>Anime</option>
                 <option>Heroi</option>
             </select>
-            <input type="submit" value="Cadastrar">
+            <input type="submit" value="Cadastrar" class="botao">
         </form><br>
-        
+
         <table>
-            <tr>
+            <tr id="linha">
                 <th>Título</th>
                 <th>Diretor</th>
                 <th>Poster</th>
@@ -65,7 +68,7 @@
                 <td>Anime</td>
             </tr>
 
-            <tr><
+            <tr>
                 <td>O Menino e o Mundo</td>
                 <td>Alê Abreu</td>
                 <td><img src="https://upload.wikimedia.org/wikipedia/pt/thumb/c/cb/O_menino_e_o_mundo.jpg/330px-O_menino_e_o_mundo.jpg"></td>
