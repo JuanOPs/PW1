@@ -63,7 +63,7 @@ li{
     margin: 10px;
 }
 
-#sem-prova{
+#prova{
     color: white;
     background-color: darkred;
     display: flex;
@@ -87,4 +87,11 @@ li{
     flex-direction: column;
     justify-content: center;
     padding: 10px;
+}
+
+#sorte{
+    color: white;
+    background-color: darkgoldenrod;
+    display: flex;
+    flex-direction:row;
 }
